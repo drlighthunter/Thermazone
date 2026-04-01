@@ -1,0 +1,5 @@
+{
+  "name": "ThermaZone: Thermal Ablation Assessment",
+  "description": "Real-time thermal ablation zone assessment and monitoring tool for RFA and Microwave ablation procedures.",
+  "requestFramePermissions": []
+}
