@@ -21,6 +21,11 @@
 - **AI Feature Extraction**: Real-time analysis of Voxel Heterogeneity, Sphericity, and Entropy.
 - **Efficacy Metrics**: Automated assessment of **Margin Coverage**, **Needle Placement Accuracy**, and **Ablation Completeness**.
 
+### 🧠 Explainable AI (XAI)
+- **Saliency Maps**: Real-time visual attention maps highlighting critical voxels influencing AI decisions.
+- **Feature Importance (SHAP)**: Dynamic visualization of feature contributions (Thermal, Texture, Shape) to clinical recommendations.
+- **Glass-Box Clinical Support**: Transparent AI reasoning to increase physician trust and procedural safety.
+
 ### 🏥 Clinical Intelligence
 - **Guideline Integration**: Contextual access to **CIRSE, SIR, and ACR** guidelines for Liver, Lung, Kidney, and Bone procedures.
 - **HIPAA Guard**: Local-first processing architecture ensuring PHI never leaves the clinical environment.
@@ -69,8 +74,8 @@
 ThermaZone follows a modular architecture designed for high-frequency data ingestion:
 1. **Hardware Layer**: Thermocouple probes -> Raspberry Pi Pico -> Web Serial/Wi-Fi.
 2. **Processing Layer**: Real-time interpolation and kinetic modeling.
-3. **Visualization Layer**: React-based dashboard with SVG/Canvas overlays for image fusion.
-4. **AI Layer**: Radiomics engine for texture analysis and clinical recommendations.
+3. **Visualization Layer**: React-based dashboard with SVG/Canvas overlays for image fusion and XAI saliency maps.
+4. **AI Layer**: Radiomics engine for texture analysis, SHAP-based feature importance, and clinical recommendations.
 
 ---
 
